@@ -4,25 +4,155 @@
     "type": "split",
     "children": [
       {
-        "id": "d5df8cd32dc677a8",
+        "id": "9a859b184991b076",
         "type": "tabs",
         "children": [
           {
-            "id": "ae562ec276d28cac",
+            "id": "913164d4a4022e7a",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
-                "file": "admin.canvas",
+                "file": "worldgen flow.canvas",
                 "viewState": {
-                  "x": 205,
-                  "y": 50,
-                  "zoom": -1.0620609681322517
+                  "x": -288.5,
+                  "y": -1660,
+                  "zoom": -3.247902054269094
                 }
               }
             }
+          },
+          {
+            "id": "26737d9cd7fc4269",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "worldgen.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9504d3e1d29a16ba",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "gizmo.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "56cb66be50a72ba7",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "gizmo flow.canvas",
+                "viewState": {
+                  "x": -139,
+                  "y": 365,
+                  "zoom": -0.9760211370655603
+                }
+              }
+            }
+          },
+          {
+            "id": "e29055b4bd5543b3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "simulation.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bdb936b31fc10604",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "heat.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "989b4f84284a2b5d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "plans.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6dfdb2b4ea9b536d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "multiplayer.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7689df05a306a06a",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "simulation flow.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
+              }
+            }
+          },
+          {
+            "id": "38874c6dc23e472f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "worldgen.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b29226f70d69870e",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -51,7 +181,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "#selecteditems",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -88,14 +218,13 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "admin.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -105,7 +234,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "admin.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,17 +265,14 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "admin.canvas"
-              }
+              "state": {}
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -162,15 +287,37 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "ae562ec276d28cac",
+  "active": "b29226f70d69870e",
   "lastOpenFiles": [
-    "survival.canvas",
-    "ReadMe.md",
     "plans.md",
-    "multiplayer.canvas",
-    "heat key features.md",
-    "gui.canvas",
-    "worldgen.canvas",
-    "admin.canvas"
+    "worldgen flow.canvas",
+    "gizmo.md",
+    "simulation.md",
+    "admin flow.canvas",
+    "multiplayer.md",
+    "survival.md",
+    "worldgen.md",
+    "heat.md",
+    "heat flow.canvas",
+    "simulation flow.canvas",
+    "gui flow.canvas",
+    "admin.md",
+    "gui.md",
+    "gizmo flow.canvas",
+    "multiplayer flow.canvas",
+    "survival flow.canvas",
+    "ReadMe.md",
+    "Untitled 1.canvas",
+    "pictures/gizmo.png",
+    "Untitled 3.canvas",
+    "pictures/Pasted image 20231116123707.jpg",
+    "pictures/Pasted image 20231116130025.png",
+    "pictures/Pasted image 20231116125925.png",
+    "pictures/Pasted image 20231116125849.jpg",
+    "pictures/Pasted image 20231116125634.jpg",
+    "pictures/Pasted image 20231116125544.jpg",
+    "pictures/Pasted image 20231116125431.png",
+    "pictures/Pasted image 20231116125334.jpg",
+    "pictures/Pasted image 20231116125217.jpg"
   ]
 }

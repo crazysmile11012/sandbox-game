@@ -3,7 +3,7 @@
 		{"id":"6048fdc8715c10ed","type":"group","x":320,"y":-1480,"width":1200,"height":1420,"label":"player customisation"},
 		{"id":"d258419f645aae72","type":"text","text":"softbody and live damage","x":20,"y":-830,"width":250,"height":60},
 		{"id":"866efc06c1803e12","type":"text","text":"limb positions","x":20,"y":-770,"width":250,"height":60},
-		{"id":"c262685011fb0c42","type":"text","text":"death_ragdoll","x":20,"y":-890,"width":250,"height":60},
+		{"id":"c262685011fb0c42","type":"text","text":"death_ragdoll [[survival flow.canvas|survival]]","x":20,"y":-890,"width":250,"height":60},
 		{"id":"8d0dd841006e134c","type":"text","text":"#playerdead","x":-1300,"y":-740,"width":250,"height":60},
 		{"id":"05c1c7351807dc93","type":"text","text":"player position","x":-1300,"y":-860,"width":250,"height":60},
 		{"id":"8e863d8c544eae21","type":"text","text":"#healthstatsinc","x":-1300,"y":-1160,"width":250,"height":60},

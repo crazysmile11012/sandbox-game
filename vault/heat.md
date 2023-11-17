@@ -15,3 +15,4 @@ heat key features:
 ---
 - when heat travels between different objects and materials it has a inefficiency, this can be negated with the use of mercury or thermal paste and thermal grease
 - (non world / editor (except outside WIP))light makes a small amount of heat in its sunspot
+[[heat flow.canvas|heat flow]]

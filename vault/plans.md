@@ -1,5 +1,5 @@
 
-
+[[ReadMe]]
 # tools for 1.0
 - union
 - inflate
@@ -8,16 +8,16 @@
 - bool: hollow
 - strut
 - add primitive
-- gizmo (transform, rotate, scale)
+- [[gizmo]] (transform, rotate, scale)
 - assign keybind
-- heat
+- [[heat]] 
 - cool
 - pipe
 - powder
 - fluid
 - prefab system
 - shader tools
-- fire
+- fire [[heat]] [[simulation]]
 - light
 - drill (bool)
 - assign script to object 
@@ -35,18 +35,18 @@
 - add blank npc
 - add neural network controlled npc
 - rust
-- make softbody
-- cloth
+- make softbody [[simulation]] 
+- cloth [[simulation]]
 -----
 # future features & stuff I want to see 
 
 first off the main scope of the game is a sandbox, when the games core elements are mostly done we can add elements into the engine to make it a jack of all trades with realism while making it user friendly. The core game will stay, over time some features listed below will use the sandbox to make the ultimate simulator 
 
-- multiplayer
+-[[multiplayer]]
 	- uses webcam to project facial positions onto player character
 	- in game voice chat with live transcription with optional profanity filter
 	- anti cheat
-	- survival mode 
+	- [[survival]] mode 
 	- fully destroyable terrain 
 	- game modes that only have physical tool use
 	- dynamic health system with realistic organ's, injury's, and tolerances 

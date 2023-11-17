@@ -1,0 +1,39 @@
+{
+	"nodes":[
+		{"id":"7951096dd5546972","type":"file","file":"pictures/gizmo.png","x":-154,"y":-294,"width":400,"height":169},
+		{"id":"71c63cd52f3f3d66","type":"text","text":"project mouse position in 3d space","x":-380,"y":140,"width":250,"height":60},
+		{"id":"4a5404ce2befa030","type":"text","text":"set gizmo position the average between each selection (if applies)\n#selecteditems","x":-208,"y":988,"width":250,"height":112},
+		{"id":"ae9f69a838beef64","type":"text","text":"if intersects gizmo transform ","x":-100,"y":400,"width":250,"height":60},
+		{"id":"d19b7541b93217ca","type":"text","text":"if intersects gizmo rotate","x":150,"y":400,"width":250,"height":60},
+		{"id":"cfbe66038b78aa86","type":"text","text":"if intersects gizmo scale","x":409,"y":400,"width":250,"height":60},
+		{"id":"4bd92be93d85330b","type":"text","text":"while left mouse down translate selected axis to projected mouse position axis","x":-86,"y":500,"width":223,"height":95},
+		{"id":"0ebb21c2905a6355","type":"text","text":"while left mouse down rotate object by selected rotation using projected mouse position or number input (records num input until enter is pressed)","x":149,"y":500,"width":252,"height":170},
+		{"id":"9ac5bcec53c7a71a","type":"text","text":"while left mouse down scale selected axis to projected mouse position axis","x":409,"y":500,"width":250,"height":146},
+		{"id":"7505e9f1efe21ace","type":"text","text":"left click","x":-355,"y":500,"width":97,"height":60},
+		{"id":"ab3006908949d4bf","type":"text","text":"in intersects object","x":-458,"y":320,"width":250,"height":60},
+		{"id":"aaa82cb26dd6f28d","type":"text","text":"right click","x":-687,"y":460,"width":127,"height":53},
+		{"id":"6041e28bcd597090","type":"text","text":"Gizmo Module root","x":-380,"y":-530,"width":172,"height":50},
+		{"id":"472416cebbcaca1e","type":"text","text":"make child of gizmo & set gizmo as visible (transform to selection)","x":-583,"y":680,"width":250,"height":60},
+		{"id":"cd83d5c34cc023a9","type":"text","text":"shift click to select multiple","x":-194,"y":898,"width":220,"height":60},
+		{"id":"dbbfe536f4c8db57","type":"text","text":"open context gui exposing propertys of selected item(s)","x":-937,"y":1200,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"ddd095261605a822","fromNode":"7951096dd5546972","fromSide":"bottom","toNode":"71c63cd52f3f3d66","toSide":"top"},
+		{"id":"02248d322f60b325","fromNode":"71c63cd52f3f3d66","fromSide":"bottom","toNode":"ab3006908949d4bf","toSide":"top"},
+		{"id":"7b7a72953e223115","fromNode":"472416cebbcaca1e","fromSide":"bottom","toNode":"cd83d5c34cc023a9","toSide":"top"},
+		{"id":"6a598cdcdd59f9c5","fromNode":"cd83d5c34cc023a9","fromSide":"bottom","toNode":"4a5404ce2befa030","toSide":"top"},
+		{"id":"1cb8c7af6f2ea3fc","fromNode":"71c63cd52f3f3d66","fromSide":"bottom","toNode":"ae9f69a838beef64","toSide":"top"},
+		{"id":"112c811b11674c44","fromNode":"ae9f69a838beef64","fromSide":"bottom","toNode":"4bd92be93d85330b","toSide":"top"},
+		{"id":"c311309e1caadeaf","fromNode":"71c63cd52f3f3d66","fromSide":"bottom","toNode":"d19b7541b93217ca","toSide":"top"},
+		{"id":"42166c942a96007a","fromNode":"d19b7541b93217ca","fromSide":"bottom","toNode":"0ebb21c2905a6355","toSide":"top"},
+		{"id":"4d737302d8aa2178","fromNode":"71c63cd52f3f3d66","fromSide":"bottom","toNode":"cfbe66038b78aa86","toSide":"top"},
+		{"id":"45ae98d8ffccf983","fromNode":"cfbe66038b78aa86","fromSide":"bottom","toNode":"9ac5bcec53c7a71a","toSide":"top"},
+		{"id":"7b948d81ad8a40b7","fromNode":"ab3006908949d4bf","fromSide":"bottom","toNode":"7505e9f1efe21ace","toSide":"top"},
+		{"id":"c023b2c3c88fcb54","fromNode":"7505e9f1efe21ace","fromSide":"bottom","toNode":"472416cebbcaca1e","toSide":"top"},
+		{"id":"46e1a47fc5bf0785","fromNode":"7505e9f1efe21ace","fromSide":"bottom","toNode":"cd83d5c34cc023a9","toSide":"top"},
+		{"id":"3a86e94fe75ee9a2","fromNode":"aaa82cb26dd6f28d","fromSide":"bottom","toNode":"dbbfe536f4c8db57","toSide":"top"},
+		{"id":"fc6c79e71bed1604","fromNode":"ab3006908949d4bf","fromSide":"bottom","toNode":"aaa82cb26dd6f28d","toSide":"top"},
+		{"id":"5eff6418fe4fef26","fromNode":"4a5404ce2befa030","fromSide":"bottom","toNode":"dbbfe536f4c8db57","toSide":"top","label":"use selection"},
+		{"id":"d7154aba8dac4d72","fromNode":"6041e28bcd597090","fromSide":"bottom","toNode":"7951096dd5546972","toSide":"top"}
+	]
+}
