@@ -1,0 +1,176 @@
+{
+  "main": {
+    "id": "1a287826a4e6bd8d",
+    "type": "split",
+    "children": [
+      {
+        "id": "d5df8cd32dc677a8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ae562ec276d28cac",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "admin.canvas",
+                "viewState": {
+                  "x": 205,
+                  "y": 50,
+                  "zoom": -1.0620609681322517
+                }
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0f5eb312f9307713",
+    "type": "split",
+    "children": [
+      {
+        "id": "6153db8c3f1317a2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7ddaf21d1b2d69de",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "35ad048dfd01b086",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "8319ee9280053c70",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "68987e6405b62c95",
+    "type": "split",
+    "children": [
+      {
+        "id": "efc231dc1ad929d0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "aeb703cf1088c1d7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "admin.canvas",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "5d56c712e05d65c5",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "admin.canvas",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ec5a2a01d713878d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "992c994d7f0c5e6b",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
+          },
+          {
+            "id": "8fb936c81e26b59c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "admin.canvas"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false,
+      "audio-recorder:Start/stop recording": false,
+      "publish:Publish changes...": false
+    }
+  },
+  "active": "ae562ec276d28cac",
+  "lastOpenFiles": [
+    "survival.canvas",
+    "ReadMe.md",
+    "plans.md",
+    "multiplayer.canvas",
+    "heat key features.md",
+    "gui.canvas",
+    "worldgen.canvas",
+    "admin.canvas"
+  ]
+}
