@@ -6,3 +6,5 @@
 
 [node name="workspace_enviroment" type="WorldEnvironment" parent="."]
 environment = ExtResource("1_nnrr5")
+
+[node name="workshop worktable" type="Node3D" parent="."]
