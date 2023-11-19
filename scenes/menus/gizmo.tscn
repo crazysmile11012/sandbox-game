@@ -1,0 +1,3 @@
+[gd_scene format=3 uid="uid://dcgg7ivi61gbr"]
+
+[node name="gizmo" type="Node3D"]

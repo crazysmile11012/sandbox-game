@@ -1,11 +1,17 @@
-[gd_scene load_steps=5 format=3 uid="uid://43tqipaf3u7e"]
+[gd_scene load_steps=8 format=3 uid="uid://43tqipaf3u7e"]
 
 [ext_resource type="Environment" uid="uid://cvuaj3yhvpsye" path="res://enviroments&themes/workspace_3d_env.tres" id="1_uhhms"]
-[ext_resource type="Material" uid="uid://bedbore7yg7sw" path="res://dynamic_textures/rock.tres" id="2_5vjil"]
 [ext_resource type="Script" path="res://addons/control_camera3d/nodes/control_camera_3d.gd" id="2_s66ht"]
+[ext_resource type="Script" path="res://addons/transform_ctrl_gizmo/server.gd" id="3_dqooa"]
+[ext_resource type="Script" path="res://addons/transform_ctrl_gizmo/receiver.gd" id="4_42uln"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_3imly"]
+albedo_color = Color(0.407843, 0.407843, 0.407843, 1)
 
 [sub_resource type="BoxMesh" id="BoxMesh_2a8v6"]
-material = ExtResource("2_5vjil")
+material = SubResource("StandardMaterial3D_3imly")
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_hqt7i"]
 
 [node name="workspace_3d" type="Node3D"]
 
@@ -14,20 +20,52 @@ environment = ExtResource("1_uhhms")
 
 [node name="workshop worktable" type="Node3D" parent="."]
 
-[node name="DirectionalLight3D" type="DirectionalLight3D" parent="workshop worktable"]
-transform = Transform3D(-0.866025, -0.433013, 0.25, 0, 0.5, 0.866025, -0.5, 0.75, -0.433013, 0, 1.48325, -2.00762)
-shadow_enabled = true
+[node name="ControlCamera3D" type="Camera3D" parent="workshop worktable"]
+transform = Transform3D(0.900761, -0.252619, 0.35329, 0, 0.81344, 0.581649, -0.434316, -0.523926, 0.732715, 1.20742, 1.98787, 2.50416)
+environment = ExtResource("1_uhhms")
+current = true
+fov = 54.7
+script = ExtResource("2_s66ht")
+translation_speed = 2.0
+
+[node name="Node3D" type="Node3D" parent="workshop worktable/ControlCamera3D"]
+transform = Transform3D(1, 0, 0, 2.98023e-08, 1, 0, 0, -2.98023e-08, 1, 0, 0, 0)
+script = ExtResource("3_dqooa")
 
 [node name="workspace placeholder" type="MeshInstance3D" parent="workshop worktable"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.497979, 0)
 mesh = SubResource("BoxMesh_2a8v6")
 
-[node name="ControlCamera3D" type="Camera3D" parent="workshop worktable"]
-transform = Transform3D(0.90076, -0.252619, 0.35329, 0, 0.81344, 0.581649, -0.434316, -0.523926, 0.732715, 1.20742, 1.98787, 2.50416)
-environment = ExtResource("1_uhhms")
-current = true
-script = ExtResource("2_s66ht")
-translation_speed = 2.0
+[node name="StaticBody3D" type="StaticBody3D" parent="workshop worktable/workspace placeholder"]
 
-[node name="Camera3D" type="Camera3D" parent="workshop worktable"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3.08028)
+[node name="CollisionShape3D" type="CollisionShape3D" parent="workshop worktable/workspace placeholder/StaticBody3D"]
+shape = SubResource("BoxShape3D_hqt7i")
+
+[node name="TransformCtrlGizmoReceiver" type="Node3D" parent="workshop worktable/workspace placeholder"]
+script = ExtResource("4_42uln")
+show_offset = Vector3(-0.5, 0, -0.5)
+
+[node name="workspace placeholder2" type="MeshInstance3D" parent="workshop worktable"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.497979, -2.04475)
+mesh = SubResource("BoxMesh_2a8v6")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="workshop worktable/workspace placeholder2"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="workshop worktable/workspace placeholder2/StaticBody3D"]
+shape = SubResource("BoxShape3D_hqt7i")
+
+[node name="TransformCtrlGizmoReceiver" type="Node3D" parent="workshop worktable/workspace placeholder2"]
+script = ExtResource("4_42uln")
+show_offset = Vector3(-0.5, 0, -0.5)
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="workshop worktable"]
+transform = Transform3D(-0.866025, -0.433013, 0.25, 0, 0.5, 0.866025, -0.5, 0.75, -0.433013, 0, 1.48325, -2.00762)
+light_energy = 1.808
+light_indirect_energy = 5.451
+light_volumetric_fog_energy = 2.455
+shadow_enabled = true
+shadow_blur = 1.505
+directional_shadow_split_2 = 0.311
+directional_shadow_fade_start = 0.154
+directional_shadow_max_distance = 8192.0
+directional_shadow_pancake_size = 99.5

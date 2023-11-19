@@ -72,7 +72,6 @@ uniform sampler2D tex_frg_4;
 void fragment() {
 // Texture2D:2
 	vec4 n_out2p0 = texture(tex_frg_2, UV);
-	float n_out2p2 = n_out2p0.g;
 	float n_out2p3 = n_out2p0.b;
 
 
@@ -99,7 +98,6 @@ void fragment() {
 
 }
 "
-graph_offset = Vector2(-660.632, 98.709)
 nodes/fragment/2/node = SubResource("VisualShaderNodeTexture_coq5w")
 nodes/fragment/2/position = Vector2(-380, 80)
 nodes/fragment/3/node = SubResource("VisualShaderNodeColorConstant_6ttnf")

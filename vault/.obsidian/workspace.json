@@ -147,8 +147,15 @@
             "id": "b29226f70d69870e",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "canvas",
+              "state": {
+                "file": "gizmo flow.canvas",
+                "viewState": {
+                  "x": -173.77255874516257,
+                  "y": -50.740303564305776,
+                  "zoom": 0.5239788629344397
+                }
+              }
             }
           }
         ],
@@ -218,6 +225,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "gizmo flow.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -234,6 +242,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "gizmo flow.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -265,7 +274,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "gizmo flow.canvas"
+              }
             }
           }
         ]
@@ -287,7 +298,7 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "b29226f70d69870e",
+  "active": "7ddaf21d1b2d69de",
   "lastOpenFiles": [
     "plans.md",
     "worldgen flow.canvas",
